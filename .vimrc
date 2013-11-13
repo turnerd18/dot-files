@@ -1,1 +1,0 @@
-/home/dturner/dotfiles/vimrc
