@@ -20,5 +20,4 @@ ln -s $DIR/vim $HOMEDIR/.vim
 
 # Post Installation Setup
 
-source $HOMEDIR/.bashrc
 vim +BundleClean! +BundleInstall! +qall!
