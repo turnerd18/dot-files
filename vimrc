@@ -62,11 +62,13 @@ nmap - <c-w>w
 nmap th :set hlsearch!<cr>
 " toggle code folding
 nmap tf :set foldenable!<cr>
+" quit Vim
+nmap <c-d> :q<cr>
 
 """ Spacing
 " 4 Spaces (2 spaces instead of tabs)
-set tabstop=4      " tab this width of spaces
-set shiftwidth=4   " indent this width of spaces
+set tabstop=2      " tab this width of spaces
+set shiftwidth=2   " indent this width of spaces
 
 """ Colorscheme
 " Uncomment the one you want
