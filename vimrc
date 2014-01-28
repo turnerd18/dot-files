@@ -77,3 +77,7 @@ colorscheme wombat
 "colorscheme codeschool
 "colorscheme distinguished
 "colorscheme jellybeans
+
+
+""" Golang settings
+"autocmd FileType go autocmd BufWritePre <buffer> Fmt
